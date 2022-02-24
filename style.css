@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    font-weight: normal;
+}
+
+h1 {
+    color: white;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    padding-right: 25px;
+}
+
+a span {
+    font-weight: bold;
+}
+
+.nav {
+    background-color: rgb(45, 45, 45);
+    height: 50px;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn {
+    color: white;
+    background-color: rgb(0, 153, 175);
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    padding: 3px 12px;
+}
